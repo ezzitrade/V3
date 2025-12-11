@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+}
+
+.glass-panel {
+  @apply bg-slate-900/70 border border-slate-700/60 rounded-3xl shadow-2xl shadow-cyan-500/10 backdrop-blur-xl;
+}
